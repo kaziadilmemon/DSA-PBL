@@ -1,0 +1,56 @@
+Step 1:
+->Make CrashCase class with proper attributes that are given in csv file
+->Now in Solution class make array of ArrayList with size 12 (no of months) with each index representing
+  every month respectively.
+->Now make a method to read file and store it into the above declared array
+->Now make a queue class and make an object of queue in the solution class and read the month array and store in it queue
+
+
+
+Step 2:
+-> Make 3 objects of queue in the solution class
+-> Now read the original queue and store the objects with checking the condition of weather and store the objects in their respective sub_queues
+  by call the getWeather() method of each object removed from original queue
+
+
+
+Step 3:
+->Now make seven objects of queues named by the week days
+->Then make copy of month wise queue and using for loop remove one by one from copy queue and check
+  the day by calling getDay method of CrashCase and using switch case store the object in the respective sub queue.
+
+
+
+
+Step 4:
+->Now make BinaryTree class with its appropriate methods also add another method called add() with the condition that it
+  inserts the no of cases with month name associated in it. Make a condition that it inserts the even number month on the left  side and odd number
+  month on the right side
+->Make two methods getLowest() and getHighest() by traversing the trees and returning the lowest of both the sides (highest for highest of both the trees)
+->Then make two references of binary tree in the solution class
+->Then make a method like fillTree and by counting the cases for each month (two int type hit_and_run and not_hit_and_run separately) and
+  by calling the add method of binary tree and pass the argument by concatenating the cases with month name as an object with the appropriate conditions.
+
+
+Problem 1:
+->Make a method the deadliest day which takes the queue as an argument for the week_day_queue by traversing the week days sub queues
+  and counting the cases of the same date and save the maximum no of cases of the same date and then return the max no of cases with day as concatenating.
+->Now make another method called question1 that calls the above method for each day and by comparing the cases of each day now at the
+  end of the method print both the statements that which of the days has the most cases with date associated also friday cases with complete date.
+
+
+
+Problem 2:
+->For this traverse the array of ArrayList and count the rainy day crashes by checking the condition by calling the method getWeatherCondition() of CrashCases class
+  and print the counter variable with month name (hint use for loop to traverse the array)
+
+
+
+Problem 3:
+->call the getLowest and getHighest methods of BinaryTree class already defined above by using appropriate reference of the tree.
+
+
+
+Postulate 1:
+->Call the deadliest method by providing the queues of the monday, tuesday, saturday and sunday and then see the result and conclude on the basis of the result
+  you can see that the postulate is true.
