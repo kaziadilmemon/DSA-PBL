@@ -1,1 +1,2 @@
 ![Problem Based Learning](https://github.com/kaziadilmemon/DSA-PBL/assets/96164867/4116607b-1af6-4cd3-a5fa-fdda28ab51b5)
+## This repository contains the solution to the Problem-Based Assignment of the course Data Structure and Algorithms. A problem-based assignment is a learning approach that helps students learn about a subject through the experience of solving an open-ended problem. In this assignment, students are provided with a problem related to the course, and they have to solve it using their knowledge of data structure and algorithms.
